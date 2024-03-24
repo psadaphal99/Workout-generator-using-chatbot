@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","I am Abhinav Kondukwar"],
+         "responses": ["Hi there, how can I help?","Hello, thanks for asking", "Good to see you again"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+	{"tag": "askagain",
+         "patterns": ["I am not looking for this","No i dont need this","Nah i dont need it"],
+         "responses": ["How can I help you", "What else do you need"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can provide you with all types of workout that you can do it on your own.", "I am here to assist you to develop a fit body."],
+         "context": [""]
+        },
+	{"tag": "full_body",
+         "patterns": ["Give me an full body workout", "I want to strengthen my full body","Find something for making complete body fit","How can I make my full body fit",
+			"What can you suggest me for my whole body transformation" ,"What can you suggest me for making my joints strong"],
+         "responses": ["You are searching for full body workout"],
+         "context": [""]
+        },
+        {"tag": "upper_body",
+         "patterns": ["Give me an upper body workout","I want to strengthen my upper body", "Find something for making biceps", "What can i do to make my arms strong", 
+		      "I want to build my upper body", "How can I make my upper body strong","How can i make my arms and biceps strong","I want to reduce my double chin",
+		     "Suggest some chest workout", " I want to train my arms", "Can you help me with some workouts for neck","What can you suggest me for my upper body transformation" 
+			,"i want a chin workout","You are searching for upper body workout","burn my face fat"],
+         "responses": ["upper body class"],
+         "context": [""]
+        },
+	{"tag": "core",
+         "patterns": ["Give me an core workout","Give me an abs workout","I want to strengthen my core body","Find me an abs exercise", "I want to reduce belly fat","core main body",
+		       "can you help me to reduce belly fat", "How can i make my core strong","What can you suggest me for my core body transformation" ,"suggest something for Lower belly",
+			"want to get slim", "I want to strengthen my core", "build my entire core","how can i get slim" ],
+         "responses": ["You are searching for core workout"],
+         "context": [""]
+        },
+	{"tag": "lower_body",
+         "patterns": ["Give me an lower body workout","Find me a lower body exercise","I want to strengthen my lower body", "Find me a leg workout","How can i make my legs and calfs strong", 
+		      "Prescribe me something for lower half?", "suggest Something forbThighs workout?", "Give me some exercises for feet","How can i have better calfs",
+		     "find me some workouts for lower muscles" ,"What can you suggest me for my lower body transformation","Prescribe me something for lower half?",
+			"tell me something for lower limb.","what are some exercise for lower body?" ],
+         "responses": ["You are searching for lower body"],
+         "context": [""]
+        },
+	{"tag": "time_1",
+         "patterns": ["Less than 30","20","10 mins","less 30","less than thirty","around half an hour","30 mins","I want exercise for less than 30 mins","i need for few minutes",
+		     "15 minutes"],
+         "responses": ["inside 30"],
+         "context": [""]
+        },
+	{"tag": "time_2",
+         "patterns": ["greater than 30","40","for 1 hour","for an hour","more than 30","I want exercise for greater than 30 mins","high time workout","i want for around 45 mins"],
+         "responses": ["inside 30"],
+         "context": [""]
+        },
+	{"tag": "beginner",
+         "patterns": ["beginner","b","beg","begin"],
+         "responses": ["I dont understand you"],
+         "context": [""]
+        },
+	{"tag": "advanced",
+         "patterns": ["advanced","a","adv","advance"],
+         "responses": ["I dont understand you"],
+         "context": [""]
+        }
+   ]
+}
